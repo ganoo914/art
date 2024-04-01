@@ -1,3 +1,10 @@
+var audio = new Audio('nikes.mp3');
+
+audio.autoplay = true;
+audio.load();
+audio.volume = 1;
+audio.play();
+
 window.onload = function() {
     const canvas = document.getElementById('Canvas');
     const ctx = canvas.getContext('2d');
